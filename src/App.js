@@ -31,7 +31,6 @@ function App(){
       </div>
     </Router>
   )
-
 }
 export default App;
 //ReactDOM.render(<BrowserRouter><App></App></BrowserRouter>,document.getElementById("root"))
