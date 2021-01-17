@@ -26,6 +26,7 @@ function Entregas(){
                         <th>Telemovel</th>
                         <th>Produto</th>
                         <th>Quantidade</th>
+                        <th>Ações</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -39,6 +40,9 @@ function Entregas(){
                             <td>{ent.telemovel}</td>
                             <td>{ent.nome}</td>
                             <td>{ent.quantidade}</td>
+                            <td>
+                                <a href={'/Entregas/' + ent.id}>Editar</a>
+                            </td>
                         </tr>
                     ))}
                 </tbody>

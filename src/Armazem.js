@@ -22,6 +22,7 @@ function Armazem(){
                         <th>quantidade</th>
                         <th>tipo</th>
                         <th>Descrição</th>
+                        <th>Ações</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -31,6 +32,9 @@ function Armazem(){
                             <td>{arm.quantidade}</td>
                             <td>{arm.tipo}</td>
                             <td>{arm.descricao}</td>
+                            <td>
+                                <a href={'/Armazem/' + arm.id}>Editar</a>
+                            </td>
                         </tr>
                     ))}
                 </tbody>
