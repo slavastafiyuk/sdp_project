@@ -1,5 +1,4 @@
 import React from 'react';
-//import ReactDom from 'react-dom'
 import {Route, Switch, NavLink} from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Armazem from "./Armazem";
@@ -9,7 +8,6 @@ import Entregas from "./Entregas";
 import InvalidPath from "./InvallidURL";
 
 function App(){
-
   return(
     <Router>
       <div>
@@ -33,4 +31,3 @@ function App(){
   )
 }
 export default App;
-//ReactDOM.render(<BrowserRouter><App></App></BrowserRouter>,document.getElementById("root"))
